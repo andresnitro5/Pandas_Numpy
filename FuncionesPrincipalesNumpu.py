@@ -20,7 +20,7 @@ print(maximo_matriz)
 a = np.array([[1,2],[3,4]])
 b = np.array([[5,6]])
 
-c = np.concatenate((a,b) , axis = 0)
+c = np.concatenate((a,b) , axis = 0) #Debido a que se esta concatenando en 2D, es decir, axis = 0 indica que debe hacerse a lo largo del eje de las filas. Es decir, los arrays se apilan verticalmente.
 print(c)
 
 
